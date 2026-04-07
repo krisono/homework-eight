@@ -3,7 +3,7 @@ home: `<h1>Nnaemeka Onochie</h1>
       <p class="subtitle">Computer Science + AI + Full-stack @ Indiana University '26</p>
       <p>Experienced in frontend systems, AI-driven applications, and full-stack development. I build scalable solutions that solve real problems and create delightful user experiences.</p>
       <h2 class="sec-head">Warehouse Optimizer</h2>
-      <p>Built a smart backroom management system that helps store teams <strong>pick the right work at the right time</strong> — preventing stockouts, reducing substitutions, and keeping shelves consistently stocked.</p>
+      <p>Built a smart backroom management system that helps store teams pick the right work at the right time — preventing stockouts, reducing substitutions, and keeping shelves consistently stocked.</p>
       <img src="imgs/Warehouse-optimizer.png" alt="Warehouse Optimizer Dashboard" style="display:block; width:100%; height:auto; margin-bottom:1.5rem;" />
       <ul class="project-desc">
         <li>🎯 Problem — Associates lose time zig-zagging the backroom and working the wrong priorities, leading to long pick cycles, empty shelves, and recurring substitutions.</li>
@@ -16,7 +16,7 @@ about: `<h1>About Nnaemeka</h1>
       <img src="imgs/IMG_3341.JPG" alt="Nnaemeka Onochie" style="max-width:300px; border-radius:12px; display:block; margin:0 auto 2rem;" />
       <p class="subtitle" style="text-align:center; margin-bottom:1.5rem;">Software Engineer II Intern &mdash; Walmart Global Tech &bull; Bentonville, AR</p>
       <ul style="list-style:none; padding:0; display:flex; flex-direction:column; gap:1rem; max-width:700px; margin:0 auto;">
-        <li>Redesigned receiving and shortage flow using Spring Boot and Apache Kafka, replacing paper missing-pallet forms with an event-driven pipeline — eliminated 95% of paper forms, reduced claim processing time by 20%, and cut data entry errors by over 15%</strong>.</li>
+        <li>Redesigned receiving and shortage flow using Spring Boot and Apache Kafka, replacing paper missing-pallet forms with an event-driven pipeline — eliminated 95% of paper forms, reduced claim processing time by 20%, and cut data entry errors by over 15%.</li>
         <li>Set up Kafka topics for receiving events, claims, and exceptions — enabling traceable audit logs and replayable recovery, saving over 5 hours of manual labor per site per week.</li>
         <li>Partnered with Operations and Finance on rollout and KPI tracking; projected to save approximately $25M annually through faster audits, reduced shrink risk, and improved exception resolution.</li>
       </ul>`,
@@ -34,7 +34,7 @@ services: `<h1>Our Services</h1>
         </ul>
       </div>`,
 contact: `<h1>Contact Us</h1>
-      <p>Have a project in mind? Reach out to us at <strong>nnaemekaacademy.com</strong> and we'll get back to you within 24 hours. We'd love to hear from you and.</p>
+      <p>Have a project in mind? Reach out to us at nnaemekaacademy.com and we'll get back to you within 24 hours. We'd love to hear from you and.</p>
             <img src="imgs/Contact-Us-Page-Examples.jpg" alt="pls contact us" style="max-width:300px; border-radius:12px; display:block;" />`
 };
 
@@ -64,7 +64,6 @@ links.forEach((link) => {
     link.addEventListener("click", handleClick);
 });
 
-// Delegated click for in-page buttons (e.g. services button on home)
 app.addEventListener("click", function (e) {
     if (e.target.dataset.page) {
         const targetID = e.target.dataset.page;
